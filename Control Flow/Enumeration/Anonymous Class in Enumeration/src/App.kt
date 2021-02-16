@@ -7,6 +7,14 @@ fun main() {
     colorRed.printValue()
     colorGreen.printValue()
     colorBlue.printValue()
+
+//    val uas = Nilai.UAS
+//    val uts = Nilai.UTS
+//    val uu = Nilai.UU
+//
+//    uas.cetak()
+//    uts.cetak()
+//    uu.cetak()
 }
 
 enum class Color(val value: Int) {
@@ -28,3 +36,22 @@ enum class Color(val value: Int) {
 
     abstract fun printValue()
 }
+
+//enum class Nilai(val n: Int){
+//    UTS(90){
+//        override fun cetak(){
+//            println("Nilainya adalah $n")
+//        }
+//    },
+//    UAS(32){
+//        override fun cetak() {
+//            println("Nilainya adalah $n")
+//        }
+//    },
+//    UU(99){
+//        override fun cetak() {
+//            println("Nilainya adalah $n")
+//        }
+//    };
+//    abstract fun cetak()
+//}

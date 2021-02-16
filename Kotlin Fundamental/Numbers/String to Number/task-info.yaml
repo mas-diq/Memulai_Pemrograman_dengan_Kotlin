@@ -11,6 +11,8 @@ files:
         print(intNumber + stringNumber.toInt())
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Tue, 16 Feb 2021 14:37:03 UTC
 record: -1
 post_submission_on_open: true

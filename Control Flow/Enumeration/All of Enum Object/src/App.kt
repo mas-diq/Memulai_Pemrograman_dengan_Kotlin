@@ -4,6 +4,9 @@ fun main() {
     colors.forEach { color ->
         println(color)
     }
+
+//    val nilai: Array<Nilai> = Nilai.values()
+//    nilai.forEach { Nilai-> println(Nilai) }
 }
 
 enum class Color(val value: Int) {
@@ -11,3 +14,9 @@ enum class Color(val value: Int) {
     GREEN(0x00FF00),
     BLUE(0x0000FF)
 }
+//
+//enum class Nilai(val n: Int){
+//    UTS(90),
+//    UAS(80),
+//    UU(90),
+//}
