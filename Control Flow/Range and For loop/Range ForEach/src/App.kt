@@ -7,4 +7,13 @@ fun main() {
     }
 
     println(rangeInt.step)
+
+    val nilai = 1..100 step 8
+
+    nilai.forEach{
+        println("Nilainya adalah $it")
+    }
+
+    println(nilai.step)
+
 }

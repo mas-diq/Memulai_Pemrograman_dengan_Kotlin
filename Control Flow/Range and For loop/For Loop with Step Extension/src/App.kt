@@ -5,4 +5,9 @@ fun main() {
     for (i in ranges ){
         println("value is $i!")
     }
+    val nilai = 1.rangeTo(100) step 12
+
+    for (x in nilai){
+        println("Nilanya adalah $x")
+    }
 }
