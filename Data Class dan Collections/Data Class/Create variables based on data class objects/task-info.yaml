@@ -13,6 +13,8 @@ files:
         println("My name is $name, I am $age years old")
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Wed, 17 Feb 2021 07:30:18 UTC
 record: -1
 post_submission_on_open: true
