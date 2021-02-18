@@ -22,6 +22,8 @@ files:
         bird.fly()
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Thu, 18 Feb 2021 06:40:00 UTC
 record: -1
 post_submission_on_open: true

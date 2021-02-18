@@ -24,6 +24,8 @@ files:
         println("Nama: ${dicodingCat.name}")
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Thu, 18 Feb 2021 04:57:13 UTC
 record: -1
 post_submission_on_open: true

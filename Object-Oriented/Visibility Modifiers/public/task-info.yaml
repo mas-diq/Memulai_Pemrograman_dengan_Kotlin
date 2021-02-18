@@ -14,6 +14,8 @@ files:
         dicodingCat.isMammal
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Thu, 18 Feb 2021 06:13:42 UTC
 record: -1
 post_submission_on_open: true

@@ -7,19 +7,35 @@
  *
  */
 
-class Cat(private val name: String) {
+class Cat(private var name: String) {
     // TODO 1
     var sleep: Boolean = false
+    fun getName(): String {
+        println("Fungsi getter dipanggil")
+        return name
+    }
+
+    fun setName(newName: String) {
+        println("Fungsi setter dipanggil")
+        name = newName
+    }
 
     fun toSleep() {
-        println()
+        if (sleep){
+            setName(name)
+            getName()
+            println("$name, sleep!")
+        } else{
+            getName()
+            println("$name, let's play!")
+        }
     }
 }
 
 fun main() {
 
     // TODO 2
-    val gippy = Cat("")
+    val gippy = Cat("Gippy")
 
     gippy.toSleep()
     gippy.sleep = true

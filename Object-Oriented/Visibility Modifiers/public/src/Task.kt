@@ -1,3 +1,5 @@
+import javax.xml.transform.sax.SAXSource
+
 class Animal(val name: String, val weight: Double, val age: Int, val isMammal: Boolean = true)
 
 fun main() {
@@ -6,4 +8,9 @@ fun main() {
     dicodingCat.weight
     dicodingCat.age
     dicodingCat.isMammal
+
+    println(dicodingCat.name)
+    println(dicodingCat.weight)
+    println(dicodingCat.age)
+    println(dicodingCat.isMammal)
 }
