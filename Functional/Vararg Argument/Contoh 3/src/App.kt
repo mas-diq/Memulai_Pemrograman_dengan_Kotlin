@@ -5,5 +5,6 @@ fun main() {
 }
 
 fun sets(vararg number: Int): Int {
+    println(number.sum())
     return number.sum()
 }

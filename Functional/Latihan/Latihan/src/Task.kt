@@ -1,3 +1,5 @@
+import kotlin.collections.mapOf as mapOf1
+
 /**
  * Untuk menyelesaikan tugas latihan, Anda tidak diperbolehkan mengubah struktur kode yang sudah ada. Kecuali:
  *    - Untuk melakukan improvisasi kode
@@ -23,6 +25,6 @@ fun main() {
 }
 
 // TODO\
-fun String.getFirstAndLast(): Map<String, Char>{
-    return mapOf()
+fun String.getFirstAndLast(): Map<String, Char> {
+    return mapOf1("first" to first(), "last" to last())
 }

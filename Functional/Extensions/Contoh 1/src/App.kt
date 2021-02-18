@@ -1,8 +1,16 @@
 // main function
 fun main() {
     10.printInt()
+
+    99.Cetak()
 }
 
 fun Int.printInt() {
-    print("value $this")
+    println("value $this")
+}
+
+fun Int.Cetak(){
+    var i = this;
+    i++
+    println("Nilai $i")
 }
