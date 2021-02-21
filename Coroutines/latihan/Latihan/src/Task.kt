@@ -7,16 +7,20 @@
  *
  */
 
-import kotlinx.coroutines.*
+import kotlinx.coroutines.async
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 
 // TODO 1
-fun sum(valueA: Int, valueB: Int): Int {
-    return 0
+suspend fun sum(valueA: Int, valueB: Int): Int {
+    delay(3000L)
+    return valueA + valueB
 }
 
 // TODO 2
-fun multiple(valueA: Int, valueB: Int): Int {
-    return 0
+suspend fun multiple(valueA: Int, valueB: Int): Int {
+    delay(2000L)
+    return valueA * valueB
 }
 
 fun main() = runBlocking {
@@ -27,5 +31,6 @@ fun main() = runBlocking {
     val resultMultiple = async { multiple(20, 20) }
 
     // TODO 3
-    println()
+    println("Result sum: ${resultSum.await()}")
+    println("Result multiple: ${resultMultiple.await()}")
 }

@@ -17,14 +17,17 @@ fun main() {
     )
 
     // TODO 2
-    val type = vehicle.getValue("type")
-    val maxSpeed = vehicle.getValue("maxSpeed")
-    val maxTank = vehicle.getValue("maxTank")
+    val type = vehicle["type"]
+    val maxSpeed = vehicle["maxSpeed"]
+    val maxTank = vehicle["maxTank"]
 
     // TODO 3
-    println("Vehicle")
-    println("Type: $type")
-    println("Maximal Speed: $maxSpeed")
-    println("Maximal Tank: $maxTank")
+    println(
+        """
+    Vehicle
+    Type: $type
+    Maximal Speed: $maxSpeed
+    Maximal Tank: $maxTank
+    """.trimIndent())
 
 }

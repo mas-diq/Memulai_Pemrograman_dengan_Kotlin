@@ -10,26 +10,16 @@
 class Cat(private var name: String) {
     // TODO 1
     var sleep: Boolean = false
-    fun getName(): String {
+    get(){
         println("Fungsi getter dipanggil")
-        return name
+        return field
     }
-
-    fun setName(newName: String) {
+    set(value){
         println("Fungsi setter dipanggil")
-        name = newName
+        field = value
     }
 
-    fun toSleep() {
-        if (sleep){
-            setName(name)
-            getName()
-            println("$name, sleep!")
-        } else{
-            getName()
-            println("$name, let's play!")
-        }
-    }
+    fun toSleep() = if (sleep) println("$name, sleep!") else println("$name, let's play!")
 }
 
 fun main() {
