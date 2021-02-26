@@ -3,8 +3,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 384
-    length: 94
+  - offset: 310
+    length: 55
     placeholder_text: |-
       fun sum(valueA: Int, valueB: Int): Int {
           return 0
@@ -13,15 +13,15 @@ files:
       length: 55
       offset: 310
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       suspend fun sum(valueA: Int, valueB: Int): Int {
           delay(3000)
           return valueA + valueB
       }
-  - offset: 490
-    length: 99
+  - offset: 377
+    length: 60
     placeholder_text: |-
       fun multiple(valueA: Int, valueB: Int): Int {
           return 0
@@ -30,21 +30,21 @@ files:
       length: 60
       offset: 377
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       suspend fun multiple(valueA: Int, valueB: Int): Int {
           delay(2000)
           return valueA * valueB
       }
-  - offset: 760
-    length: 101
+  - offset: 608
+    length: 9
     placeholder_text: println()
     initial_state:
       length: 9
       offset: 608
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       println("""
@@ -92,7 +92,4 @@ files:
     Result multiple: 400
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: Sun, 21 Feb 2021 06:42:30 UTC
 record: -1
