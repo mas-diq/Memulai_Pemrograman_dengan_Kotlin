@@ -14,7 +14,7 @@ files:
         valueB.validateNumber()
         valueC.validateNumber()
 
-        return valueA + valueB
+        return valueA + valueB + valueC
     }
   learner_created: false
 status: Solved
